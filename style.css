@@ -41,7 +41,7 @@ body{
 	width: 115px;
 }
 .cart-item h5{
-    padding: 0 45px;
+    padding: 0 20px;
 }
 .cart-item .remove-item{
 	width: 25px!important;
@@ -71,23 +71,53 @@ body{
 	border: none;
 }
 
-@media (min-width: 400px) { 
+@media (max-width: 400px) { 
 	.sub {
-		width: 30%;
+		width: 20%;
 	}
 	.sub-price{
-		width: 70%;
+		width: 80%;
+	}
+	h5 {
+		font-size: 15px;
+		padding: 0;
 	}
 }
 
-@media (min-width: 576px) { 
+
+@media (max-width: 575.98px) { 
+	.sub {
+		width: 30%;
+		
+	}
+	.sub-price{
+		width: 70%;
+	}
+	h5 {
+		font-size: small;
+	}
+ }
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* @media (min-width: 576px) { 
 	.sub {
 		width: 30%;
 	}
 	.sub-price{
 		width: 70%;
 	}
-}
+} */
 
 
 /* // Small devices (landscape phones, 576px and up)

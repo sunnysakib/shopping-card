@@ -71,6 +71,24 @@ body{
 	border: none;
 }
 
+@media (min-width: 400px) { 
+	.sub {
+		width: 30%;
+	}
+	.sub-price{
+		width: 70%;
+	}
+}
+
+@media (min-width: 576px) { 
+	.sub {
+		width: 30%;
+	}
+	.sub-price{
+		width: 70%;
+	}
+}
+
 
 /* // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
